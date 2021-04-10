@@ -1,0 +1,56 @@
+.NewsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: gainsboro;
+    width: 100%;
+    margin: 0 auto 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    box-shadow: 1px 2px 2px 0px rgb(255 255 255 / 50%);
+}
+
+.NewsWrapper .newsImage {
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    margin-right: 40px;
+}
+
+.NewsWrapper .newsInfoWrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewsWrapper .newsTitle {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.newsAdditInfoWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsDate {
+    color: gray;
+}
+
+.newsShowFull{
+}
+
+.newsDelete{
+    display: inline-block;
+    background: tomato;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 25px;
+}

@@ -1,0 +1,30 @@
+.Button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 20px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+  }
+  
+  .Button.primary {
+    background-color: dodgerblue;
+  }
+  
+  .Button.success {
+    background-color: seagreen;
+  }
+  
+  .Button.danger {
+    background-color: tomato;
+  }
+  
+  .Button.warning {
+    background-color: orange;
+  }

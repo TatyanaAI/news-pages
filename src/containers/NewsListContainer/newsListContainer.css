@@ -1,0 +1,4 @@
+.NewsListContainer{
+    display: flex;
+    flex-direction: column;
+}

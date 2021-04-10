@@ -1,0 +1,45 @@
+.NavMenu {
+    background-color: #021747;
+    margin-bottom: 50px;
+}
+
+.NavMenu .content {
+    width: 960px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.NavMenu .main {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.NavMenu .main:hover {
+    color: cornflowerblue;
+}
+
+.NavMenu .addButton {
+    background-color: white;
+    color: cornflowerblue;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.NavMenu .addButton:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.NavMenu .addButton.active {
+    pointer-events: none;
+}
